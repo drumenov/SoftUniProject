@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniProject", "SoftUniProject\SoftUniProject.csproj", "{FE0FFB70-D295-48AB-9B89-E276A9829CBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniProject", "SoftUniProject\SoftUniProject.csproj", "{FE0FFB70-D295-48AB-9B89-E276A9829CBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{0246EFDE-F61B-42F3-B832-C6487422DFB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniProject.Models", "Models\SoftUniProject.Models.csproj", "{0246EFDE-F61B-42F3-B832-C6487422DFB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniProject.Data", "SoftUniProject.Data\SoftUniProject.Data.csproj", "{CE648145-1123-4179-97E3-CB71BB477E12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0246EFDE-F61B-42F3-B832-C6487422DFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0246EFDE-F61B-42F3-B832-C6487422DFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0246EFDE-F61B-42F3-B832-C6487422DFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE648145-1123-4179-97E3-CB71BB477E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE648145-1123-4179-97E3-CB71BB477E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE648145-1123-4179-97E3-CB71BB477E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE648145-1123-4179-97E3-CB71BB477E12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
